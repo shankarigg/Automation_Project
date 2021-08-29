@@ -5,3 +5,6 @@ This script is used to copy  the apache2 log files into the AWS s3 bucket
 4.copy the .log files from the /var/log/apache2 and create the tar file in /tmp folder
 5.Include the time stamp in the tar filename
 6.copy the tar file to AWS s3 bucket
+7.Create the inventory.html file to store the file details whenever the job runs
+8.Create the cron job named automation to schedule the job to run every minute
+
